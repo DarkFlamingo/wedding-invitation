@@ -1,7 +1,7 @@
 .wrapper {
   margin: 0px auto;
-  min-width: 320px;
-  max-width: 700px;
+  width: 100vw;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -63,6 +63,75 @@
 
 .saveDateText {
   font-size: 20px;
+}
+
+.separateDate {
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+}
+
+.locationSection {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+}
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+
+.locationHeaderWrapper {
+}
+
+.locationHeader {
+  font-size: 50px;
+  text-align: center;
+}
+
+.locationText {
+  text-align: center;
+}
+
+.location {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.timelineSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timelineHeader {
+  text-align: center;
+}
+
+.timelineWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timelineItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.timelineTime {
+  width: 35px;
+}
+
+.timelineText {
+  width: 50px;
 }
 
 /* @media screen and (min-width: ) {
